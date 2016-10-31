@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2502B0A10DABF3D912215C /* Pods_letter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FC13D25470E5AE8315A1E4 /* Pods_letter.framework */; };
 		E1AEE8241CE95D0200199E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AEE8231CE95D0200199E16 /* AppDelegate.swift */; };
 		E1AEE8261CE95D0200199E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AEE8251CE95D0200199E16 /* ViewController.swift */; };
 		E1AEE8291CE95D0200199E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AEE8271CE95D0200199E16 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		E1AEE82E1CE95D0200199E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AEE82C1CE95D0200199E16 /* LaunchScreen.storyboard */; };
 		E1AEE8391CE95D0200199E16 /* letterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AEE8381CE95D0200199E16 /* letterTests.swift */; };
 		E1AEE8441CE95D0200199E16 /* letterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AEE8431CE95D0200199E16 /* letterUITests.swift */; };
+		E1D3A0591CE984E9000C86E8 /* cryptoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3A0581CE984E9000C86E8 /* cryptoClass.swift */; };
+		E1D3A05B1CE98A5F000C86E8 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D3A05A1CE98A5F000C86E8 /* CryptoSwift.framework */; };
+		E1D3A05D1CE99676000C86E8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D3A05C1CE99676000C86E8 /* LocalAuthentication.framework */; };
+		E1D3A05F1CE996E5000C86E8 /* FingerPrintAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3A05E1CE996E5000C86E8 /* FingerPrintAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F7FDBD0E0D0DF398302017C /* Pods-letter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-letter/Pods-letter.debug.xcconfig"; sourceTree = "<group>"; };
 		E1AEE8201CE95D0200199E16 /* letter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AEE8231CE95D0200199E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1AEE8251CE95D0200199E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		E1AEE83F1CE95D0200199E16 /* letterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = letterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AEE8431CE95D0200199E16 /* letterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letterUITests.swift; sourceTree = "<group>"; };
 		E1AEE8451CE95D0200199E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D3A0581CE984E9000C86E8 /* cryptoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cryptoClass.swift; sourceTree = "<group>"; };
+		E1D3A05A1CE98A5F000C86E8 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/letter-hblnqkqlirlkykfezujstouwuffn/Build/Products/Debug-iphonesimulator/CryptoSwift.framework"; sourceTree = "<group>"; };
+		E1D3A05C1CE99676000C86E8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		E1D3A05E1CE996E5000C86E8 /* FingerPrintAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FingerPrintAuthentication.swift; path = ../FingerPrintAuthentication.swift; sourceTree = "<group>"; };
+		F3FC13D25470E5AE8315A1E4 /* Pods_letter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB90248AA98D97CA31943D3 /* Pods-letter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letter.release.xcconfig"; path = "Pods/Target Support Files/Pods-letter/Pods-letter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D3A05D1CE99676000C86E8 /* LocalAuthentication.framework in Frameworks */,
+				AD2502B0A10DABF3D912215C /* Pods_letter.framework in Frameworks */,
+				E1D3A05B1CE98A5F000C86E8 /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13B7B787DBB6019B88809355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7FDBD0E0D0DF398302017C /* Pods-letter.debug.xcconfig */,
+				FCB90248AA98D97CA31943D3 /* Pods-letter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A53E6BD9F79F067F2402BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D3A05C1CE99676000C86E8 /* LocalAuthentication.framework */,
+				E1D3A05A1CE98A5F000C86E8 /* CryptoSwift.framework */,
+				F3FC13D25470E5AE8315A1E4 /* Pods_letter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1AEE8171CE95D0200199E16 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				E1AEE8371CE95D0200199E16 /* letterTests */,
 				E1AEE8421CE95D0200199E16 /* letterUITests */,
 				E1AEE8211CE95D0200199E16 /* Products */,
+				13B7B787DBB6019B88809355 /* Pods */,
+				6A53E6BD9F79F067F2402BD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +135,8 @@
 			children = (
 				E1AEE8231CE95D0200199E16 /* AppDelegate.swift */,
 				E1AEE8251CE95D0200199E16 /* ViewController.swift */,
+				E1D3A0581CE984E9000C86E8 /* cryptoClass.swift */,
+				E1D3A05E1CE996E5000C86E8 /* FingerPrintAuthentication.swift */,
 				E1AEE8271CE95D0200199E16 /* Main.storyboard */,
 				E1AEE82A1CE95D0200199E16 /* Assets.xcassets */,
 				E1AEE82C1CE95D0200199E16 /* LaunchScreen.storyboard */,
@@ -132,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1AEE8481CE95D0200199E16 /* Build configuration list for PBXNativeTarget "letter" */;
 			buildPhases = (
+				D8DF7D9AC64CE5F83ABB5551 /* Check Pods Manifest.lock */,
 				E1AEE81C1CE95D0200199E16 /* Sources */,
 				E1AEE81D1CE95D0200199E16 /* Frameworks */,
 				E1AEE81E1CE95D0200199E16 /* Resources */,
+				F8ED1F1B5BB0D1627C2311FB /* Embed Pods Frameworks */,
+				3AEC1E13B1F84EA07700E559 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Robert Herrera";
 				TargetAttributes = {
 					E1AEE81F1CE95D0200199E16 = {
@@ -254,12 +295,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AEC1E13B1F84EA07700E559 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-letter/Pods-letter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DF7D9AC64CE5F83ABB5551 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8ED1F1B5BB0D1627C2311FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/myfile",
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-letter/Pods-letter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1AEE81C1CE95D0200199E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E1AEE8261CE95D0200199E16 /* ViewController.swift in Sources */,
+				E1D3A0591CE984E9000C86E8 /* cryptoClass.swift in Sources */,
+				E1D3A05F1CE996E5000C86E8 /* FingerPrintAuthentication.swift in Sources */,
 				E1AEE8241CE95D0200199E16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,8 +421,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -375,8 +469,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -395,6 +491,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -402,7 +499,9 @@
 		};
 		E1AEE8491CE95D0200199E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7FDBD0E0D0DF398302017C /* Pods-letter.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = letter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -413,7 +512,9 @@
 		};
 		E1AEE84A1CE95D0200199E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB90248AA98D97CA31943D3 /* Pods-letter.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = letter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -487,6 +588,7 @@
 				E1AEE84A1CE95D0200199E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1AEE84B1CE95D0200199E16 /* Build configuration list for PBXNativeTarget "letterTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +597,7 @@
 				E1AEE84D1CE95D0200199E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1AEE84E1CE95D0200199E16 /* Build configuration list for PBXNativeTarget "letterUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +606,7 @@
 				E1AEE8501CE95D0200199E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
